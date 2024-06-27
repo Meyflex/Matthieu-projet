@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr"> <!-- Définit la langue du document comme étant le français -->
+<head>
+    <meta charset="UTF-8"> <!-- Définit l'encodage des caractères en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Permet un affichage responsive -->
+    <title>Mon Portfolio</title> <!-- Titre de la page -->
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Définit la police de caractères */
+            background-image: url('https://getwallpapers.com/wallpaper/full/1/c/f/756358-vertical-violet-wallpaper-1920x1080-full-hd.jpg'); /* Image de fond */
+            background-size: cover; /* Couvre toute la page avec l'image de fond */
+            background-attachment: fixed; /* L'image de fond reste fixe lors du défilement */
+            margin: auto; /* Centre la page */
+            text-align: center; /* Centre le texte */
+        }
+        .container {
+            max-width: 800px; /* Limite la largeur du conteneur */
+            margin: auto; /* Centre le conteneur */
+            background-color: rgba(255, 255, 255, 0.9); /* Fond blanc avec transparence */
+            padding: 20px; /* Ajoute du padding */
+            border-radius: 15px; /* Ajoute des coins arrondis */
+        }
+        .banner-image {
+            width: 100%; /* L'image occupe toute la largeur du conteneur */
+            height: auto; /* Garde le ratio de l'image */
+            border-radius: 15px; /* Ajoute des coins arrondis à l'image */
+        }
+        .buttons {
+            display: flex; /* Utilise le modèle flex pour aligner les boutons */
+            justify-content: center; /* Centre les boutons horizontalement */
+            margin: 20px auto; /* Ajoute une marge autour des boutons */
+        }
+        .buttons a {
+            background-color: black; /* Couleur de fond des boutons */
+            color: white; /* Couleur du texte des boutons */
+            padding: 10px 20px; /* Ajoute du padding à l'intérieur des boutons */
+            margin: 0 10px; /* Ajoute une marge entre les boutons */
+            text-decoration: none; /* Supprime la décoration du texte (soulignement) */
+            border-radius: 15px; /* Ajoute des coins arrondis */
+        }
+        .content {
+            display: flex; /* Utilise le modèle flex pour aligner l'image et le texte */
+            align-items: center; /* Centre les éléments verticalement */
+            justify-content: space-between; /* Espace les éléments horizontalement */
+            text-align: left; /* Aligne le texte à gauche */
+        }
+        .content img {
+            max-width: 150px; /* Limite la largeur de l'image */
+            margin-right: 20px; /* Ajoute une marge à droite de l'image */
+        }
+        .text {
+            flex: 1; /* Permet au texte de prendre tout l'espace disponible */
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> <!-- Conteneur principal -->
+        <img src="https://wallpapercave.com/wp/wp7666158.jpg" alt="Brawl Stars" class="banner-image"> <!-- Image de bannière -->
+        <div class="buttons"> <!-- Conteneur pour les boutons -->
+            <a href="#">voir mon compte</a> <!-- Bouton 1 -->
+            <a href="#">nouveauté</a> <!-- Bouton 2 -->
+        </div>
+        <div class="content"> <!-- Conteneur flex pour le contenu -->
+            <div class="text"> <!-- Conteneur pour le texte -->
+                <p>Je suis un joueur de Brawl Stars depuis 2018. J'ai pas mal d'expérience dans ce jeu. Malheureusement, en 2020, j'ai perdu mon compte. Cependant, 4 ans après, j'ai créé un autre compte qui me permet d'avoir maintenant 12000 trophées. Mon Brawler préféré est Leon.</p>
+                <!-- Paragraphe décrivant le joueur -->
+                <p>Mes performances :</p> <!-- Introduction à la liste des performances -->
+                <ul>
+                    <li>12000 trophées</li> <!-- Élément de la liste -->
+                    <li>30 Brawlers</li> <!-- Élément de la liste -->
+                    <li>Rang 28 max</li> <!-- Élément de la liste -->
+                    <li>3 légendaires</li> <!-- Élément de la liste -->
+                </ul>
+            </div>
+            <img src="https://wallpaperaccess.com/full/3172790.jpg" alt="Leon"> <!-- Image de Leon -->
+        </div>
+    </div>
+</body>
+</html>
